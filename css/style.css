@@ -30,9 +30,9 @@ footer .container [class*="col-"] {
   border: solid 1px white;
 }
 
-footer .container > .col-6{
+footer .container > [class$="6"]{
   border: solid 1px black;
   padding: 5px;
   height: 163px;
-background-color: pink;
+  background-color: pink;
 }
