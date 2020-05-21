@@ -21,14 +21,21 @@ section .container p, footer .container p{
   transform: translateY(-50%);
 }
 
-footer .container [class*="col-"] {
-  background-color: #ff787c;
-  border: solid 1px white;
+footer .container .col-6 .container {
+  padding: 5px;
 }
 
-footer .container > [class$="6"]{
+footer .container .col-6 .container [class*="col-"] {
+  background-color: #ff787c;
+  border: solid 1px white;
+  height: 136px;
+}
+
+
+
+/* footer .container .col-6 .container > [class$="6"]{
   border: solid 1px black;
   padding: 5px;
   height: 163px;
   background-color: pink;
-}
+} */
