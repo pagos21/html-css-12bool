@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+
+
+.pink_f{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 22%;
+}
+
+img{
+  max-width: 100%;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+[class*="col_off"] {
+  height: 75px;
+  background-color: white;
+}
+
+[class*="col-"] {
+  height: 75px;
+  border: solid .5px grey;
+  background-color: darkgrey;
+}
+
+
+.container{
+  background-color: white;
+}
+
+.big{
+  margin: 15%;
+  border: 5px solid black;
+}
