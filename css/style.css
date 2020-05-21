@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  height: 150px;
+  border: solid 1px black;
+}
+
+header .container {
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+  background-color: pink;
+}
+
+section .container p, footer .container p{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer .container [class*="col-"] {
+  background-color: #ff787c;
+  border: solid 1px white;
+}
+
+footer .container > .col-6{
+  border: solid 1px black;
+  padding: 5px;
+  height: 163px;
+background-color: pink;
+}
